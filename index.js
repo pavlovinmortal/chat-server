@@ -48,4 +48,4 @@ io.on('connect', (socket) => {
   })
 });
 
-app.listen(process.env.PORT || 5000, () => console.log(`Servidor iniciado .`));
+server.listen(process.env.PORT || 5000,'localhost' ,() => console.log(`Server has started.`));
